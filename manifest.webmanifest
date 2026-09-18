@@ -1,0 +1,20 @@
+{
+  "name": "Galiciana Fans",
+  "short_name": "Galiciana",
+  "description": "Visor documental de Galiciana. App no oficial.",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "lang": "es",
+  "background_color": "#071824",
+  "theme_color": "#0B6EBD",
+  "icons": [
+    {
+      "src": "./icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
