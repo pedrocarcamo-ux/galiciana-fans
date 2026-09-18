@@ -15,50 +15,23 @@
 </head>
 <body>
   <header class="top">
-    <div class="brand">
-      <div class="g">G</div>
-      <div>
+    <a class="brand" href="#/">
+      <span class="g">G</span>
+      <span>
         <strong>GALICIANA</strong>
         <small>BIBLIOTECA DIXITAL DE GALICIA</small>
-      </div>
-    </div>
+      </span>
+    </a>
+    <button type="button" class="theme" id="themeBtn" aria-label="Tema">◐</button>
   </header>
-  <main>
-    <section class="fav" id="fav">
-      <h2>Favoritos</h2>
-      <p id="favMeta">La vieira celeste espera tu primera página</p>
-      <div class="shells" id="shells"></div>
-    </section>
-
-    <a class="hero" href="#consulta">
-      <img alt="" src="https://biblioteca.galiciana.gal/es/media/object-miniature.do?id=13124554">
-      <div class="veil"></div>
-      <div class="copy"><h3>Consulta general</h3><span>Texto, título, autor, lugar y años</span></div>
-    </a>
-    <a class="hero wine" href="#sucesos">
-      <img alt="" src="https://biblioteca.galiciana.gal/es/media/object-miniature.do?id=14175789">
-      <div class="veil"></div>
-      <div class="copy"><h3>Cotillear en Sucesos y Sociedad</h3><span>Solo esas secciones de la prensa</span></div>
-    </a>
-    <a class="hero" href="https://biblioteca.galiciana.gal/es/consulta/busqueda.do">
-      <img alt="" src="https://biblioteca.galiciana.gal/es/media/object-miniature.do?id=14175789">
-      <div class="veil"></div>
-      <div class="copy"><h3>Hemeroteca</h3><span>Cabeceras en Galiciana</span></div>
-    </a>
-    <a class="hero" href="https://biblioteca.galiciana.gal/es/consulta/navegacionSecciones.do">
-      <img alt="" src="https://biblioteca.galiciana.gal/es/media/object-miniature.do?id=13787413">
-      <div class="veil"></div>
-      <div class="copy"><h3>Colecciones</h3><span>Secciones del fondo</span></div>
-    </a>
-
-    <form class="search" id="form">
-      <input id="q" name="q" placeholder='Buscar. Frase exacta: "carmen gallego"' autocomplete="off">
-      <button type="submit">BUSCAR</button>
-      <button type="button" class="wine" id="sucesosBtn">COTILLEAR EN SUCESOS</button>
-    </form>
-    <div class="hits" id="hits"></div>
-    <p class="muted">PWA no oficial. Fondos de Galiciana / Xunta. El modo oscuro sigue el del teléfono.</p>
-  </main>
+  <nav class="tabs" id="tabs">
+    <a href="#/">Inicio</a>
+    <a href="#/consulta">Consulta</a>
+    <a href="#/colecciones">Colecciones</a>
+    <a href="#/favoritos">Favoritos</a>
+  </nav>
+  <main id="app"></main>
+  <footer class="foot">App no oficial · fondos de Galiciana / Xunta</footer>
   <script src="./app.js"></script>
 </body>
 </html>
