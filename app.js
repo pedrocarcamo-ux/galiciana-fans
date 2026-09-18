@@ -91,8 +91,8 @@ function viewHome() {
     <h2 class="sec">Obras destacadas</h2>
     <div class="row">${obras}</div>
     <h2 class="sec">Noticias</h2>
-    <a class="card" href="#/hemeroteca"><b>El IES Pedras Rubias recupera dos cabeceras históricas</b><p class="hint">La Voz del Centro y El Agrario (Buenos Aires, 1917-1926).</p></a>
-    <a class="card" href="#/datos"><b>La Biblioteca Dixital de Galicia en cifras</b><p class="hint">Estadísticas del fondo digital.</p></a>
+    <a class="card" href="#/hemeroteca"><strong>El IES Pedras Rubias recupera dos cabeceras históricas</strong><p class="hint">La Voz del Centro y El Agrario (Buenos Aires, 1917-1926).</p></a>
+    <a class="card" href="#/datos"><strong>La Biblioteca Dixital de Galicia en cifras</strong><p class="hint">Estadísticas del fondo digital.</p></a>
     <h2 class="sec">Galiciana también es</h2>
     <div class="links">
       <a href="https://www.galiciana.gal">Galiciana Patrimonio Dixital de Galicia</a>
