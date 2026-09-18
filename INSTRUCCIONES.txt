@@ -1,0 +1,31 @@
+GALICIANA FANS — PWA
+====================
+
+Carpeta lista para GitHub Pages.
+
+1) Crea un repositorio en github.com (por ejemplo galiciana-fans).
+2) Sube TODOS los archivos de esta carpeta a la RAÍZ del repo:
+     index.html
+     styles.css
+     app.js
+     sw.js
+     manifest.webmanifest
+     icon.svg
+     README.md
+3) En el repo: Settings → Pages → Branch: main → folder: / (root) → Save.
+4) Espera 1 minuto. La web queda en:
+     https://TUUSUARIO.github.io/galiciana-fans/
+5) En el móvil: abre esa URL → menú de Chrome/Safari → Añadir a pantalla de inicio.
+
+Modo oscuro
+- Si el teléfono está en oscuro, la PWA sale oscura sola.
+- El botón ◐ del encabezado fuerza claro u oscuro.
+
+Qué hace cada pantalla
+- Inicio: favoritos + atajos
+- Consulta: busca en el OCR de Galiciana
+- Cotillear: añade Sucesos y Sociedad a la búsqueda
+- Colecciones: secciones (mapas, fotos, monografías…)
+- Favoritos: enlaces guardados en este aparato
+
+No es la app Android. No sustituye biblioteca.galiciana.gal.
